@@ -22,13 +22,15 @@ A vanilla JavaScript application for managing user data with real-time updates a
 ## Project Structure:
 
 ```
-â”œâ”€â”€ index.html
-â”œâ”€â”€ js/
-â”‚   â”œâ”€â”€ script.js
-â”‚   â””â”€â”€ utils/
-â”‚       â”œâ”€â”€ fetchData.js
-â”‚       â”œâ”€â”€ formFactory.js
-â”‚       â””â”€â”€ putData.js
+├── index.html
+├── script.js
+├── style.css
+├── Data/
+│   └── response.json
+├── utils/
+│   ├── formFactory.js
+│   └── putData.js
+
 ```
 
 ![User manager](./Screenshot.png)
